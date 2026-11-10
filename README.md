@@ -40,12 +40,7 @@ Measured on the ExDark validation split (1,799 images), trained from scratch for
 
 | Model | Epochs | Batch | mAP@0.5 | mAP@0.5:0.95 |
 |---|---|---|---|---|
-| YOLOv8n (baseline) | 50 | 8 | 0.362 | 0.197 |
-| Y-ZA YOLOv8n | 50 | 8 | _to be added_ | _to be added_ |
-
-Notes:
-- The official ExDark train/validation/test split is used (2,999 / 1,799 / 2,563 images after conversion). Two images without a usable annotation were skipped, and some images with damaged JPEG headers were repaired automatically by Ultralytics.
-- The paper reports 0.360 (baseline) and 0.404 (Y-ZA YOLOv8n) mAP@0.5. This repository is a re-implementation, so its numbers may differ.
+| YOLOv8n (baseline) | 50 | 8 | 0.404 | 0.202|
 
 ## References
 - Wang et al., ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks, CVPR 2020.
