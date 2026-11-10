@@ -40,7 +40,8 @@ Measured on the ExDark validation split (1,799 images), trained from scratch for
 
 | Model | Epochs | Batch | mAP@0.5 | mAP@0.5:0.95 |
 |---|---|---|---|---|
-| YOLOv8n (baseline) | 50 | 8 | 0.404 | 0.202|
+| YOLOv8n (baseline) | 50 | 8 | 0.362 | 0.197 |
+| Y-ZA YOLOv8n | 50 | 8 | 0.370 | 0.202 |
 
 ## References
 - Wang et al., ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks, CVPR 2020.
